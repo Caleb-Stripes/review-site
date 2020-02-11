@@ -7,7 +7,7 @@ import java.util.Map;
 public class Repository {
 
 	private Map<Long, Review> routeList = new HashMap<>();
-	private Review twinky = new Review(1, "Twinky", 5.12, "Sport", "Steepest climb in the RRG.");
+	//private Review twinky = new Review(1, "Twinky", 5.12, "Sport", "Steepest climb in the RRG.");
 
 	public Repository(Review... reviews) {
 		for (Review review : reviews) {

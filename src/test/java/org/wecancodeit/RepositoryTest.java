@@ -1,9 +1,7 @@
 package org.wecancodeit;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
-import static org.junit.jupiter.api.Assertions.*;
-
 import javax.annotation.Resource;
 
 import org.junit.jupiter.api.Test;
